@@ -13,8 +13,8 @@
     <li><a href="#description">Description</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#tests">Tests</a></li>
     <li><a href="#questions">Questions</a></li>
   </ul>
@@ -41,7 +41,13 @@ An application built using node.js that allows users to devote more time to buil
 
 ## Usage
 
-This application can be used to generate a formatted README that one can use on every project for time-savings and consistency.
+This application can be used to generate a formatted README that one can use on every project for speed and consistency.
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License.
 
 <!-- CONTRIBUTING -->
 
@@ -58,12 +64,6 @@ This application can be used to generate a formatted README that one can use on 
 ## Tests
 
 N/A
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License.
 
 <!-- questions -->
 
