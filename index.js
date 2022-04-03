@@ -10,3 +10,13 @@ const inquirer = require("inquirer");
 
 //   console.log("README complete! Check out README_1.html to see the output.");
 // });
+
+inquirer
+  .prompt([
+    {
+      type: "input",
+      name: "title",
+      message: "Enter the title of your project.",
+    },
+  ])
+  .then((answers) => console.log(answers));
