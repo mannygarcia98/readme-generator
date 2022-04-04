@@ -5,3 +5,7 @@ Enter a paragraph to add to the "Usage" section.
 Explain how others can contribute to your project.
 Enter test instructions.
 What license is your project covered under?
+
+Add a way for the users installation steps to be numbered and entered one at a time.
+Add a way to generate license text
+9.3.5 questions

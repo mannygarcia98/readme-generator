@@ -15,7 +15,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#tests">Tests</a></li>
+    <!-- <li><a href="#tests">Tests</a></li> -->
     <li><a href="#questions">Questions</a></li>
   </ul>
 </details>
@@ -24,16 +24,16 @@
 
 ## Description
 
-An application built using node.js that allows users to devote more time to building projects by automatically generating a README.md after answering a series of questions.
+A command-line application that allows users to devote more time to building projects by automatically generating a README.md after answering a series of questions.
 
 <!-- Installation -->
 
 ## Installation
 
-1. First make sure you have node.js installed
+1. First, make sure you have node.js installed
 2. Clone the repository to your local machine
 3. Run the command "npm install"
-4. Run "node index"
+4. Run "node index.js"
 5. Answer a series of questions
 6. Check the "dist" folder to view your README.
 
@@ -61,13 +61,15 @@ Distributed under the MIT License.
 
 <!-- TESTS -->
 
-## Tests
+<!-- ## Tests
 
-N/A
+N/A -->
 
 <!-- questions -->
 
 ## Questions
+
+Reach out to me via email with any questions or to report a bug.
 
 Email: [Mannysg88@gmail.com](mailto:Mannysg88@gmail.com)
 
