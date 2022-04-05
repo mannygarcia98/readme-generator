@@ -1,15 +1,7 @@
 const inquirer = require("inquirer");
-// const fs = require("fs");
-// const generateReadMe = require("./src/README-template.js");
-// // const profileDataArgs = process.argv.slice(2, process.argv.length);
-// const markdown = generateReadMe(title, description);
-// // const [title, description] = profileDataArgs;
+const fs = require("fs");
+const generateReadMe = require("./src/README-template.js");
 
-// fs.writeFile("README_1.md", markdown, (err) => {
-//   if (err) throw err;
-
-//   console.log("README complete! Check out README_1.html to see the output.");
-// });
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -68,4 +60,33 @@ const promptUser = () => {
     },
   ]);
 };
-promptUser().then((answers) => console.log(answers));
+
+// promptUser().then((answers) => console.log(answers));
+promptUser().then((readmeData) => {
+  const markdown = generateReadMe(readmeData);
+
+  fs.writeFile("./dist/README.md", markdown, (err) => {
+    if (err) throw new Error(err);
+
+    console.log("README complete! Check out README.md in the 'dist' folder to view your file.");
+  });
+});
+
+// promptUser()
+//   .then(promptProject)
+//   .then(portfolioData => {
+//     return generatePage(portfolioData);
+//   })
+//   .then(pageHTML => {
+//     return writeFile(pageHTML);
+//   })
+//   .then(writeFileResponse => {
+//     console.log(writeFileResponse);
+//     return copyFile();
+//   })
+//   .then(copyFileResponse => {
+//     console.log(copyFileResponse);
+//   })
+//   .catch(err => {
+//     console.log(err);
+//   });
