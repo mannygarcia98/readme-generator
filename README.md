@@ -1,5 +1,3 @@
-<div id="top"></div>
-
 ![license-badge]
 
 <h1 align="center">README Generator</h1>
@@ -40,6 +38,8 @@ A command-line application that allows users to devote more time to building pro
 4. Run "node index.js"
 5. Answer a series of questions
 6. Check the "dist" folder to view your README.
+
+Click [here](https://drive.google.com/file/d/1c1CNIFlkE6_h7mkooAb5UAWTntZ6k5bY/view) for a demonstration.
 
 <!-- USAGE EXAMPLES -->
 
