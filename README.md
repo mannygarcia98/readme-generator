@@ -6,6 +6,11 @@
 
 </div>
 
+<img align="center" src="./img/node.png">
+<figcaption align = "center"><b>Answer prompts after running "node test"</b></figcaption>
+<img align="center" src="./img/README-preview.png">
+<figcaption align = "center"><b>A formatted README will be generated with the user's answers.</b></figcaption>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -15,7 +20,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <!-- <li><a href="#tests">Tests</a></li> -->
     <li><a href="#questions">Questions</a></li>
   </ul>
 </details>
@@ -58,12 +62,6 @@ Distributed under the MIT License.
 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
-
-<!-- TESTS -->
-
-<!-- ## Tests
-
-N/A -->
 
 <!-- questions -->
 
