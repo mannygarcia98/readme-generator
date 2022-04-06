@@ -3,7 +3,7 @@
 
   ![license-badge]
 
-  <h1 align="center">Weather Dashboard</h1>
+  <h1 align="center">read me gen</h1>
   
   <!-- TABLE OF CONTENTS -->
   <details>
@@ -22,27 +22,27 @@
   </br>
   
   ## Description
-  Weather Dashboard is a web app for getting the current weather and a 5 day forecast. 
+  
   
   ## Installation
-  Visit https://mannygarcia98.github.io/weather-dashboard/ and enter your city name.
+  
 
   ## Usage
-  This website can be useful when planning a trip. The user can plan their trip agenda around the days with pleasant weather.
+  
 
   ## Contributing
-  Fork the repository, add changes to a separate branch, then submit a pull request.
+  
 
   ## Tests
-  NA
+  
 
   ## License
   Licensed under the MIT License.
   
   ## Questions
-  Email: [mannysg88@gmail.com](mailto:mannysg88@gmail.com)
+  Email: [](mailto:)
   
-  Github: [https://github.com/mannygarcia98](https://github.com/mannygarcia98)
+  Github: [https://github.com/](https://github.com/)
   
   <!-- MARKDOWN LINKS & IMAGES -->
   [license-badge]: https://img.shields.io/badge/LICENSE-MIT-brightgreen?style=plastic

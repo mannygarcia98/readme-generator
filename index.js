@@ -1,3 +1,4 @@
+const writeFile = require("./utils/generate-readme");
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateReadMe = require("./src/README-template.js");
@@ -62,16 +63,30 @@ const promptUser = () => {
 };
 
 // promptUser().then((answers) => console.log(answers));
-promptUser().then((readmeData) => {
-  const markdown = generateReadMe(readmeData);
 
-  fs.writeFile("./dist/README.md", markdown, (err) => {
-    if (err) throw new Error(err);
+// promptUser().then((readmeData) => {
+//   const markdown = generateReadMe(readmeData);
 
-    console.log("README complete! Check out README.md in the 'dist' folder to view your file.");
+//   fs.writeFile("./dist/README.md", markdown, (err) => {
+//     if (err) throw new Error(err);
+
+//     console.log("README complete! Check out README.md in the 'dist' folder to view your file.");
+//   });
+// });
+
+promptUser()
+  .then((readmeData) => {
+    return generateReadMe(readmeData);
+  })
+  .then((markdown) => {
+    return writeFile(markdown);
+  })
+  .then((writeFileResponse) => {
+    console.log(writeFileResponse);
+  })
+  .catch((err) => {
+    console.log(err);
   });
-});
-
 // promptUser()
 //   .then(promptProject)
 //   .then(portfolioData => {
